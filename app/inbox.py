@@ -60,7 +60,7 @@ def send():
         if error is not None:
             flash(error)
         else:
-            db = ?
+            db = ? #ejemplo cambio
             db.execute(
                 QUERY,
                 (g.user['id'], userto['id'], subject, body)
